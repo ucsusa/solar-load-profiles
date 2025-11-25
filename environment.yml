@@ -1,0 +1,20 @@
+name: solar-load-profiles
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - pip 
+  - ipython
+  - ipykernel
+  - jupyterlab
+  - graphviz
+  - pandas
+  - scipy
+  - numpy
+  - matplotlib
+  - seaborn 
+  - unyt
+  - geopandas
+
+  - pip:
+    - python-dotenv
